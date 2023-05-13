@@ -8,6 +8,8 @@ if __name__ == "__main__":
 	print(f"Currently working directory is {os.getcwd()} - {get_args([])}")
 	print("Hello")
 
-	if len(sys.argv[1:]) == 0:
+	if len(sys.argv[1::]) == 0:
 		sys.exit("Please provide some arguments!")
+
+	print(f"Args = {sys.argv[1::]}")
 
