@@ -5,3 +5,4 @@ import os
 
 
 print(f"Currently working directory is {os.getcwd()} {get_args([])}")
+print("Hello")
